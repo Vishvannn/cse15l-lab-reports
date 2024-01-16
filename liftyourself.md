@@ -7,7 +7,7 @@
 ![Image](https://www.billboard.com/wp-content/uploads/media/kanye-west-lil-pump-adele-givens-i-love-it-MV-vid-2018-billboard-1548.jpg?w=1024)
 ---
 
-Hard to see, ooh
+Hard to see, ooh \n
 The hang ups we have today
 Said we need to strive for more liberty
 Lift yourself upon your feet, let's get it on
