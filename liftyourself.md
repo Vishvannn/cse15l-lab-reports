@@ -2,7 +2,8 @@
 ---
 **Song Lyrics**
 *Kanye West and Lil Pump*
-[Link](https://www.youtube.com/watch?v=8fbyfDbi-MI&ab_channel=KanyeWest-Topic)
+---
+[Audio](https://www.youtube.com/watch?v=8fbyfDbi-MI&ab_channel=KanyeWest-Topic)
 ![Image](https://www.billboard.com/wp-content/uploads/media/kanye-west-lil-pump-adele-givens-i-love-it-MV-vid-2018-billboard-1548.jpg?w=1024)
 ---
 
