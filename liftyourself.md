@@ -1,6 +1,7 @@
 # Lift Yourself
 ---
 **Song Lyrics**
+---
 
 *Kanye West and Lil Pump*
 
