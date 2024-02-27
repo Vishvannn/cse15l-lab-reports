@@ -3,14 +3,13 @@
 This is what the folder looks like:
 
 ```bash
-/home/linux/ieng6/oce/73/skavuri/lab7:
+vishvansivanandan@Vishvans-MacBook-Pro/cse15l/lab7:
 ListExamples.java  ListExamplesTests.java  lib  test.sh
 ```
 
 ##  `ieng6` login
 
-The `ssh` command can be used for the same followed by the address of the machine to connect to. In this case, `ieng6-201` is being connected to in particular as certain machines in the cluster do not display the right behavior when `javac` is run.
-No shortcuts can be used here as `ieng6-201.ucsd.edu` is not a recognizable `bash` command. 
+The `ssh` command can be used to connect to the machine. In this case, `ieng6-201` is being connected to. No shortcuts can be used since `ieng6-201.ucsd.edu` is not a recognizable `bash` command. 
 
 ```bash
 vishvansivanandan@Vishvans-MacBook-Pro ~ % ssh vsivanandan@ieng6.ucsd.edu
@@ -42,8 +41,8 @@ or "prep -h" for more options.
 
 ## Cloning the repository
 
-`git clone` followed by the `ssh` URL of the forked repository can be used to clone the repository onto the local machine. While `<tab>` can be pressed to autocomplete the word `clone`, a negligible amount of time would be saved.
-The URL, once in the clipboard, can be pasted into the terminal by simply right-clicking in the terminal window. `<enter>` is then pressed.
+`git clone` and then `ssh` URL of the forked repository is used to clone the repository onto the local machine. While `<tab>` can be pressed to autocomplete the word `clone`, a negligible amount of time would be saved.
+Paste the URL into the terminal by simply right-clicking in the terminal window. `<enter>` is then pressed.
 
 ```bash
 [vsivanandan@ieng6-201]:~:49$ git clone git@github.com:vishvannn/lab7.git
@@ -169,5 +168,4 @@ To github.com:vishvannn/lab7.git
    327ab1a..4e211d6  main -> main
 ```
 
-The changes are now pushed to the fork of the repository on Github.
-
+The changes are now pushed to the fork of the repository.
