@@ -63,10 +63,7 @@ Resolving deltas: 100% (21/21), done.
 
 ## Compiling the tests 
 
-The command `javac` compiles the `.java` files. However, it is necessary that the `classpath` is modified to include the Hamcrest core and JUnit `.jar` files in order for the program to compile successfully. The `classpath`, by default is the current directory 
-which is also necessary to compile the files correctly. So, we specify the paths of the current directory and both the required `.jar` files separated by `:`. No shortcuts can be used while entering the paths here; however, the syntax `*.java` can be used to 
-compile all the files in the present directory. `<enter>` is then pressed.
-
+The `javac` command is used to turn `.java` files into a form the computer can run. To do this correctly, especially when using Hamcrest core and JUnit, you need to tell the computer where to find these tools by setting the `classpath`. It starts off pointing to the folder you're in, which is needed for the files to compile right. You must list this folder and the paths to the Hamcrest and JUnit files, separated by `:`. You can't use shortcuts for these paths, but you can use `*.java` to compile all the `.java` files at once. After setting this up, you press `<enter>`.
 ```bash
 [vsivanandan@ieng6-201]:lab7:58$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 ```
@@ -106,7 +103,7 @@ We can see that the test fails.
 `vim` can be used to edit the code. `vim List` can be typed and `<tab>` pressed to autocomplete the file name. The extension can then be entered manually.
 
 ```bash
-[vsivanandan@ieng6-201]:lab7:183$ vim ListExamples.java
+[vsivanandan@ieng6-201]:lab7:68$ vim ListExamples.java
 ```
 This opens the file in vim. Here, in normal mode, we can use `:set number` to enable line numbers. The same can be added to `~/.vimrc` to ensure that line numbers are enabled by default in the future.
 
@@ -120,8 +117,8 @@ We can now see that there is an error on line 44. In normal mode, `44G` can then
 The same can be repeated once again in order to reach the `java` command. `<enter>` can then be pressed. The tests are now run without errors.
 
 ```bash
-[vsivanandan@ieng6-201]:lab7:184$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-[vsivanandan@ieng6-201]:lab7:185$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+[vsivanandan@ieng6-201]:lab7:69$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+[vsivanandan@ieng6-201]:lab7:70$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 JUnit version 4.13.2
 ..
 Time: 0.037
@@ -137,7 +134,7 @@ OK (2 tests)
 ```bash
 [vsivanandan@ieng6-201]:lab7:186$ git commit -a -m "Fixed ListExamples.java"
 [main 4e211d6] Fixed ListExamples.java
- Committer: Sriharsha Kavuri <skavuri@ieng6-201.ucsd.edu>
+ Committer: Vishvan Sivanandan <vsivanandan@ieng6-201.ucsd.edu>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
 You can suppress this message by setting them explicitly. Run the
